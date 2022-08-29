@@ -5,6 +5,7 @@ import { BuscarComponent } from './pages/buscar/buscar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductoComponent } from './pages/producto/producto.component';
 import { ListarComponent } from './pages/listar/listar.component';
+import { ProductosRoutingModule } from './productos-routing.module';
 
 
 
@@ -17,7 +18,8 @@ import { ListarComponent } from './pages/listar/listar.component';
     ListarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ProductosRoutingModule
   ]
 })
 export class ProductosModule { }
