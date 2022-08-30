@@ -1,0 +1,30 @@
+.bton:focus, .btn:hover {
+    outline: none;
+    box-shadow: none;
+}
+
+.bton {
+    border: none;
+}
+
+.espacio {
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+.opciones-tamano {
+    font-size: 20px;
+}
+
+svg {
+    width: 40px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+
