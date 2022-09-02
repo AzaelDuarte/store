@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductoComponent } from './pages/producto/producto.component';
 import { ListarComponent } from './pages/listar/listar.component';
 import { ProductosRoutingModule } from './productos-routing.module';
+import { TarjetaProductoComponent } from './components/tarjeta-producto/tarjeta-producto.component';
 
 
 
@@ -15,7 +16,8 @@ import { ProductosRoutingModule } from './productos-routing.module';
     BuscarComponent,
     HomeComponent,
     ProductoComponent,
-    ListarComponent
+    ListarComponent,
+    TarjetaProductoComponent
   ],
   imports: [
     CommonModule,

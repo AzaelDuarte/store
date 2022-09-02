@@ -1,0 +1,19 @@
+.orden-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.espacio-boton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 20px !important;
+}
+
