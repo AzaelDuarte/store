@@ -1,1 +1,5 @@
-<p>listar works!</p>
+<div class="orden-card">
+    <div *ngFor="let producto of productos" class="card" style="width: 18rem;">
+        <app-tarjeta-producto [producto]="producto"></app-tarjeta-producto>
+    </div>
+</div>
